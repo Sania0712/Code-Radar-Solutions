@@ -5,7 +5,6 @@ int main(){
     printf("Area: ");
     scanf("%.2f",&r);
 
-  area =  2*3.14*r*r:
     printf("%.2f",area);
     return 0;
 }
