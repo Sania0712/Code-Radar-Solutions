@@ -2,8 +2,8 @@
 int main(){
   char [name];
   printf("Name: ");
-  scanf("%d",&name);
-  printf("%d\n",name);
+  scanf("%c",&name);
+  printf("%c\n",name);
 
 
   int age;
