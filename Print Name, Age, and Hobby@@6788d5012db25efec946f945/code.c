@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main(){
-  int name;
+  char [name];
   printf("Name: ");
   scanf("%d",&name);
   printf("%d\n",name);
+
 
   int age;
   printf("Age: ");
