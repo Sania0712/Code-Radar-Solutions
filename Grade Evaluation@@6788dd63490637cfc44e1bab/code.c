@@ -14,10 +14,13 @@ int main(){
         printf("Average");
     }
     if(D){
-        printf("Poor");
+        printf("Below Average");
     }
     if(F){
         printf("Fail");
+    }
+    else{
+        printf("Invalid grade");
     }
     return ;
 }
