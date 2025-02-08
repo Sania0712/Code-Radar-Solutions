@@ -4,29 +4,20 @@ int main(){
     printf("%c",&c);
     scanf("%c",&c);
 
-    switch(c){
-        case 'A':
-        printf("Exelllent");
-        break;
-
-        case 'B':
-        printf("Exelllent");
-        break;
-
-        case 'C':
+    if(A){
+        printf("Exellent");
+    }
+    if(B){
+        printf("Good");
+    }
+    if (C){
         printf("Average");
-        break;
-
-        case 'D':
-        printf("Exelllent");
-        break;
-
-        case 'F':
+    }
+    if(D){
+        printf("Poor");
+    }
+    if(F){
         printf("Fail");
-        break;
-
-        default:
-        printf("Invalid");
     }
     return ;
 }
