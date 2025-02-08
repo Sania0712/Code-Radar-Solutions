@@ -10,7 +10,7 @@ int main(){
     if((ch>='A')&&(ch<='Z')){
         printf("Uppercase");
     }
-    else(ch>=0){
+    else{
         printf("Not an alphabet");
     }
     return 0;
