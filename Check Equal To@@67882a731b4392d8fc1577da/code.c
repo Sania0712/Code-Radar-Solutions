@@ -1,9 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
-    int num1,num2;
+    int n1,n2;
     printf("");
-    scanf("%d%d",&num1,&num2);
-    if(num1=num2){
+    scanf("%d%d",&n1,&n2);
+
+    if(n1=n2){
         printf("True");
     }
     else{
