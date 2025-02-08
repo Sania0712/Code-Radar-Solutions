@@ -3,6 +3,7 @@ int main(){
     int n1,n2,n3;
     printf("");
     scanf("%d%d%d",&n1,&n2,&n3);
-    printf("%d",n1+n2+n3/3);
+    float n;
+    printf("%f",n1+n2+n3/3);
     return 0;
 }
