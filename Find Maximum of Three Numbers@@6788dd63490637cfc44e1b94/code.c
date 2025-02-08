@@ -13,9 +13,7 @@ int main(){
     if(n3>n2 && n3>n1){
         printf("%d",n3);
     }
-    else{
-        printf("%d",n1);
-    }
+    
    
 
     return 0;
