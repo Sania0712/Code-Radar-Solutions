@@ -14,7 +14,7 @@ int main(){
         printf("%d",n3);
     }
     else{
-        printf("%d",n1)
+        printf("%d",n1);
     }
    
 
