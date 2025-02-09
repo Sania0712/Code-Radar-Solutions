@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
   char name[];
-  printf("Name: ");
+  printf("Name: """);
   scanf("%s",&name);
   printf("%s\n",name);
 
@@ -12,7 +12,7 @@ int main(){
   printf("%d\n",age);
 
   char hobby[];
-  printf("Hobby: ");
+  printf("Hobby: "" ");
   scanf("%s",&hobby);
   printf("%s\n",hobby);
 
