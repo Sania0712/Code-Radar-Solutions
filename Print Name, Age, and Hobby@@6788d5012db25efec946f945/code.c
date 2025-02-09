@@ -2,8 +2,8 @@
 int main(){
   char name[];
   printf("Name: ");
-  scanf("%c",&name);
-  printf("%c\n",name);
+  scanf("%s",&name);
+  printf("%s\n",name);
 
 
   int age;
@@ -11,10 +11,10 @@ int main(){
   scanf("%d",&age);
   printf("%d\n",age);
 
-  int hobby;
+  char hobby[];
   printf("Hobby: ");
-  scanf("%d",&hobby);
-  printf("%d\n",hobby);
+  scanf("%s",&hobby);
+  printf("%s\n",hobby);
 
     return 0;
 }
