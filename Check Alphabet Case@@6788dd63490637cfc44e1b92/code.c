@@ -10,5 +10,6 @@ int main(){
     if((ch>='A')&&(ch<='Z')){
         printf("Uppercase");
     }
+    if(0<ch<9)
     return 0;
 }
