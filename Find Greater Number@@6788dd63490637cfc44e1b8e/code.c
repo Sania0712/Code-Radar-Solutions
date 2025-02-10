@@ -6,10 +6,10 @@ int main(){
     
 
     if(n1>n2){
-        printf(" %d",n1);
+        printf("%d",n1);
     }
     if(n2>n1){
-        printf(" %d",n2);
+        printf("%d",n2);
     }
     return 0;
 }
