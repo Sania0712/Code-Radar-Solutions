@@ -4,7 +4,7 @@ int main(){
     printf("");
     scanf("%d%d",&n,&d);
 
-    if (n%d){
+    if (n/d){
         printf("Yes");
     }
     else{
