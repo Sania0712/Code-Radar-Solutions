@@ -10,7 +10,7 @@ if(('A'<=ch)&&(ch<='Z')){
 if(('a'<=ch)&&(ch<='z')){
     printf("Lowercase");
 }
-else{
+if(ch!='A' && ch!='z'){
     printf("Not an alphabet");
 }
     
