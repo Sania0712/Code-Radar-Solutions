@@ -7,7 +7,7 @@ int main(){
     if(1<=n<=100){
         printf("In Range");
     }
-    if(n==0){
+    if((n==0)||(n>100)){
         printf("Out of Range");
     }
     return 0;
