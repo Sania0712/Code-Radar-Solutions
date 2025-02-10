@@ -12,7 +12,7 @@ int main(){
   printf("%d\n",age);
 
   char hobby[10];
-  printf("Hobby: "" ");
+  printf("Hobby: ");
   scanf("%s",&hobby);
   printf("%s\n",hobby);
 
