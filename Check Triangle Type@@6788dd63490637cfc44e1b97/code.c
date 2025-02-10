@@ -7,10 +7,10 @@ int main(){
     if(n1==n2==n3){
         printf("Equilateral");
     }
-    if((n1==n2) && (n3!=n2)){
+    if((n1==n2)&&(n3!=n2)){
         printf("Isosceles")
     }
-    if (n1!=n2!=n3){
+    if(n1!=n2!=n3){
         printf("Scalene");
     }
     return 0;
