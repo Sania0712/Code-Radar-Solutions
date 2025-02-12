@@ -7,6 +7,6 @@ scanf("%f%f",&n1,&n2);
 
 pro = n1 * n2; 
 
-printf("product: %.2f",n1*n2);
+printf("product: %.2f",pro);
     return 0;
 }
