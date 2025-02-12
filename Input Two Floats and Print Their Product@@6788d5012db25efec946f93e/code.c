@@ -3,7 +3,7 @@ int main(){
 float n1,n2;
 float pro;
 printf("");
-scanf("%f",&pro);
+scanf("%f%f",&n1,&n2);
 
 pro = n1 * n2; 
 
