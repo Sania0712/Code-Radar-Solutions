@@ -5,7 +5,7 @@ int main()
     int i, num;
 
     /* Input a number to print table */
-    printf("Enter number to print table: ");
+    printf("");
     scanf("%d", &num);
 
     for(i=1; i<=10; i++)
